@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Montserrat&family=Ms+Madi&display=swap');
+body{
+    background-color: #373737;
+    width: 100%;
+}
+
+.Main_Headline{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Kanit';
+}
+
+.Container{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 330px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Childs{
+    float: left;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 15px;
+    margin: 5px;
+    outline-style: solid;
+    outline-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.Childs:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.Childs:active{
+    background-color: rgb(255, 255, 255);
+}
+
+.Img_Btn{
+    width: 80px;
+    height: 80px;
+}
+
+.PointInf{
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 24rem;
+    color: #fff;
+}
+
+.Points{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 25px;
+    color: rgb(160, 160, 160);
+}
+
+@media only screen and (min-width: 550px){
+    .Container{
+        position: absolute;
+        left: 50%; 
+        transform: translateX(-50%);
+        width: 660px;
+    }
+    
+    .Childs{
+        float: left;
+        min-width: 200px;
+        min-height: 200px;
+        border-radius: 15px;
+        margin: 10px;
+        outline-style: solid;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .Childs:hover{
+        background-color: rgba(255, 255, 255, 0.432);
+    }
+
+    .Img_Btn{
+        width: 180px;
+        height: 180px;
+    }
+    .Childs:active{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .PointInf{
+        font-family: 'Montserrat';
+        text-align: center;
+        margin-top: 45rem;
+        color: #fff;
+    }
+    
+    .Points{
+        font-family: 'Montserrat';
+        text-align: center;
+        font-size: 30px;
+        color: rgb(160, 160, 160);
+    }
+
+}
